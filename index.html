@@ -338,7 +338,7 @@
 }
 </script>
 
-  <link rel="preload" as="image" href="images/hero-bg.jpg" />
+  <link rel="preload" as="image" href="images/hero-bg.jpg" fetchpriority="high" />
   <!-- SEO-BLOCK-END -->
   <!-- FAVICON (logo du site dans l'onglet du navigateur) -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
@@ -1169,7 +1169,7 @@
 </nav>
 
 <!-- HERO -->
-<section id="hero">
+<section id="hero" style="background-image:url('images/hero-bg.jpg')">
   <div class="hero-inner">
     <span class="hero-eyebrow fade-up" style="--delay:.1s">
       <span style="display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--primary);flex-shrink:0"></span>
@@ -1242,7 +1242,7 @@
       </div>
     </div>
     <div class="about-photo">
-      <img id="aboutImg" src="" alt="" loading="lazy" />
+      <img id="aboutImg" src="images/apropos.jpg" alt="Relook Toit — couvreur à La Neuville-en-Tourne-à-Fuy" loading="lazy" />
     </div>
   </div>
 </section>
@@ -1250,10 +1250,10 @@
 <!-- STATS -->
 <section id="stats">
   <div class="stats-inner" id="statsInner"><div class="stat-block">
-        <div class="stat-val" data-target="10" data-prefix="">0</div>
+        <div class="stat-val" data-target="10" data-prefix="">10</div>
         <div class="stat-lbl">Ans d'expérience</div>
       </div><div class="stats-divider"></div><div class="stat-block">
-        <div class="stat-val" data-target="100" data-prefix="+">0</div>
+        <div class="stat-val" data-target="100" data-prefix="+">+100</div>
         <div class="stat-lbl">Réalisations</div>
       </div></div>
 </section>
@@ -1329,14 +1329,14 @@
     <p>Nous réalisons la <strong>rénovation de toiture</strong>, la <strong>réparation de fuite</strong>, la <strong>pose de couverture neuve</strong>, la <strong>zinguerie</strong>, le <strong>démoussage</strong>, la <strong>pose de Velux</strong>, le <strong>ravalement de façade</strong> et les <strong>travaux de peinture</strong>. Couvertures en tuile mécanique, tuile plate et zinc : nous connaissons le bâti du Rethélois et du nord de la Marne.</p>
     <div class="villes">
       <a class="ville-chip" href="zones-intervention.html">La Neuville-en-Tourne-à-Fuy</a>
-      <a class="ville-chip" href="zones-intervention.html">Rethel</a>
-      <a class="ville-chip" href="zones-intervention.html">Reims</a>
+      <a class="ville-chip" href="couvreur-rethel.html">Rethel</a>
+      <a class="ville-chip" href="couvreur-reims.html">Reims</a>
       <a class="ville-chip" href="zones-intervention.html">Juniville</a>
       <a class="ville-chip" href="zones-intervention.html">Bazancourt</a>
-      <a class="ville-chip" href="zones-intervention.html">Pontfaverger-Moronvilliers</a>
-      <a class="ville-chip" href="zones-intervention.html">Warmeriville</a>
-      <a class="ville-chip" href="zones-intervention.html">Witry-lès-Reims</a>
-      <a class="ville-chip" href="zones-intervention.html">Bétheniville</a>
+      <a class="ville-chip" href="couvreur-pontfaverger-moronvilliers.html">Pontfaverger-Moronvilliers</a>
+      <a class="ville-chip" href="couvreur-warmeriville.html">Warmeriville</a>
+      <a class="ville-chip" href="couvreur-witry-les-reims.html">Witry-lès-Reims</a>
+      <a class="ville-chip" href="couvreur-betheniville.html">Bétheniville</a>
       <a class="ville-chip" href="zones-intervention.html">Saint-Masmes</a>
       <a class="ville-chip" href="zones-intervention.html">Machault</a>
       <a class="ville-chip" href="zones-intervention.html">Tagnon</a>
@@ -1672,7 +1672,7 @@
       </span>
     </div>
   </div>
-  <p class="footer-villes">La Neuville-en-Tourne-à-Fuy · Rethel · Reims · Juniville · Bazancourt · Pontfaverger-Moronvilliers · Warmeriville · Witry-lès-Reims · Bétheniville · Saint-Masmes · Machault · Tagnon · Perthes · Isles-sur-Suippe · Bourgogne-Fresne · Saint-Étienne-à-Arnes</p>
+  <p class="footer-villes">La Neuville-en-Tourne-à-Fuy · <a href="couvreur-rethel.html" style="color:inherit">Rethel</a> · <a href="couvreur-reims.html" style="color:inherit">Reims</a> · Juniville · Bazancourt · <a href="couvreur-pontfaverger-moronvilliers.html" style="color:inherit">Pontfaverger-Moronvilliers</a> · <a href="couvreur-warmeriville.html" style="color:inherit">Warmeriville</a> · <a href="couvreur-witry-les-reims.html" style="color:inherit">Witry-lès-Reims</a> · <a href="couvreur-betheniville.html" style="color:inherit">Bétheniville</a> · Saint-Masmes · Machault · Tagnon · Perthes · Isles-sur-Suippe · Bourgogne-Fresne · Saint-Étienne-à-Arnes</p>
   <div class="footer-bottom">
     <span>© <span id="footerAnnee">2026</span> <span id="footerNom">Relook Toit</span> — Couvreur dans les Ardennes (08)</span>
     <a href="zones-intervention.html">Zones d'intervention</a>
